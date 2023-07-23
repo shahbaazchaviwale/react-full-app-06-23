@@ -11,3 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+/* link: https://tailwindcss.com/docs/guides/create-react-app */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
