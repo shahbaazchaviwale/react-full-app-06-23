@@ -1,12 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Home from './components';
+import React, { Suspense } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import Home from "./components";
 
 function App() {
   return (
     <div className="min-h-full">
-     <Home />
+      <Suspense>
+        <Home />
+      </Suspense>
     </div>
   );
 }
